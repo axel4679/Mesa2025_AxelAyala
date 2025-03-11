@@ -16,9 +16,9 @@ public class AutomovilController {
  
  @GetMapping("/automovil/nuevo")
  public ModelAndView automovilNuevo() {
-	 ModelAndView mav = new ModelAndView("formularioAutomovil");
-	 mav.addObject("automovil", new Automovil());
-	 return mav;
+     ModelAndView mav = new ModelAndView("formularioAutomovil");
+     mav.addObject("automovil", new Automovil());
+     return mav;
  }
  
  

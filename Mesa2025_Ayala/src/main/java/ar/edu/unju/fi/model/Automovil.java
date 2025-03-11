@@ -18,10 +18,10 @@ public class Automovil {
 private String patente;
 
 @Enumerated(EnumType.STRING)
-private Marca marca;
+public Marca marca;
 
 @Enumerated(EnumType.STRING)
-private Color color;
+public Color color;
 
 
 private String modelo;
