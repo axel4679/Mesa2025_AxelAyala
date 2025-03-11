@@ -13,7 +13,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-			<a class="navbar-brand" href="#">Estacionamiento Municipal</a>
+			<a class="navbar-brand" th:href="@{/}">Estacionamiento Municipal</a>
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarNav">
 				<span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
  -->
   <span th:text="${espaciosDisponibles}">Cargando...</span>
 								
-							<a href="#" class="btn btn-primary">Reservar</a>
+							<a th:href="@{/reserva/nuevo}" class="btn btn-primary">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 								Espacios libres: <span th:text="${espaciosDisponibles.zona2}">Cargando...</span>
 							</p> -->
 
-							<a href="#" class="btn btn-danger">Reservar</a>
+							<a th:href="@{/reserva/nuevo}" class="btn btn-danger">Reservar</a>
 						</div>
 					</div>
 				</div>

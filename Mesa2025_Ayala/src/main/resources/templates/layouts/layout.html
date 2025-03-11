@@ -11,8 +11,8 @@
     <!-- Navbar -->
     <nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Estacionamiento Municipal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+	<a class="navbar-brand" th:href="@{/}">Estacionamiento Municipal</a>           
+	 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
